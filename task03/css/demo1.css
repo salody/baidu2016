@@ -1,0 +1,53 @@
+html,
+body {
+	margin: 0;
+	padding: 20px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+.container {
+	padding: 20px;
+	/*触发BFC*/
+	overflow: hidden;
+	background: #eee;
+	border: 1px solid #999;
+}
+
+.left {
+	box-sizing: border-box;
+	float: left;
+	padding: 20px;
+	width: 202px;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+.team-logo {
+	float: left;
+}
+
+.team-name {
+	text-align: center;
+}
+
+.right {
+	box-sizing: border-box;
+	float: right;
+	padding: 20px;
+	width: 122px;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+.right img {
+	margin-bottom: 10px;
+}
+.right img:last-child {
+	margin-bottom: 0;
+}
+.main {
+	margin: 0 140px 0 220px;
+	padding: 0 20px;
+	border: 1px solid #999;
+}

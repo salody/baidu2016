@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position方法</title>
+  <style>
+    .container {
+      position: relative;
+      border: 1px solid #999;
+    }
+    .left,
+    .right {
+      position: absolute;
+      width: 200px;
+      height: 300px;
+      background: #a0b3d6;
+    }
+    .left {
+      left: 0;
+    }
+    .right {
+      top: 0;
+      right: 0;
+    }
+    .main {
+      height: 300px;
+      margin: 0 210px;
+      background: #ffe6b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left"></div>
+    <div class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto cumque eaque earum esse et magnam maxime molestias, nemo nisi non, optio praesentium quo repellat, saepe totam veritatis? Corporis, quo!</div>
+    <div class="right"></div>
+  </div>
+</body>
+</html>
