@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae1a137d-d2d4-46d4-b723-437fe419b1d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task07/css/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task07/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task07/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ae1a137d-d2d4-46d4-b723-437fe419b1d1" name="Default" comment="" />
     <ignored path="baidu2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -290,15 +284,15 @@
       <updated>1484626257336</updated>
       <workItem from="1484626258716" duration="9799000" />
       <workItem from="1484696461472" duration="52000" />
-      <workItem from="1484706367060" duration="26554000" />
+      <workItem from="1484706367060" duration="26742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36405000" />
+    <option name="totallyTimeSpent" value="36593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1959" y="0" width="1804" height="1038" extended-state="0" />
+    <frame x="1959" y="0" width="1804" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10626398" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
