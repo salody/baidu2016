@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Microsoft YaHei", serif;
+            font-size: 14px;
+        }
+        label {
+            display: block;
+            margin: 20px;
+        }
+        button {
+            margin: 0 0 20px 20px;
+            padding: 6px 12px;
+        }
+        div {
+            margin-left: 20px;
+        }
+        #aqi-input {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 6px 12px;
+        }
+        #aqi-input:focus {
+            border: 1px solid #66afe9;
+            border-radius: 4px;
+            outline: 0;
+        }
+    </style>
+</head>
+<body>
+<label>请输入北京今天空气质量：<input id="aqi-input" type="text" placeholder="AQI数值"></label>
+<button id="button">确认填写</button>
+
+<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+<script type="text/javascript">
+    function $(id) {
+        return document.getElementById(id);
+    }
+    (function() {
+        /*
+         在注释下方写下代码
+         给按钮button绑定一个点击事件
+         在事件处理函数中
+         获取aqi-input输入的值，并显示在aqi-display中
+         */
+        var clickHandler = function () {
+            var value = parseInt($('aqi-input').value),
+                display = $('aqi-display');
+            if ((!isNaN(value)) && value >= 0 && value <=500) {
+                display.innerHTML = value;
+            } else {
+                alert(value + "不是有效的AQI数值，请重新输入0-500之间的有效整数")
+            }
+        };
+        var btn = $('button');
+        btn.onclick = function () {
+            clickHandler();
+        };
+
+
+        // onchange会在输入框失焦或者摁下回车键后生效
+        $('aqi-input').onchange = function () {
+            clickHandler();
+        }
+    })();
+</script>
+</body>
+</html>
